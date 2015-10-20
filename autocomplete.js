@@ -24,17 +24,54 @@ var results = new Results(group);
 
 // Vista para un resultado
 var ResultView = Backbone.View.extend({
-	model   : new Result(),
-	tagName : 'div',
+	model   : results,
+	el : $('.results'),
 	initialize : function() {
+		var self = this;
 		this.template = _.template($('.resultado').html());
+		_.each(this.model.toArray(), function(element){
+			self.render(element);
+		});
 	},
-	render : function() {
-		this.$el.html(this.template(this.model.toJSON()));
+	render : function(value) {
+		this.$el.append(this.template(value.toJSON()));
 		return this;
 	}
 });
+
+// Vista de la barra de búsqueda.
+
+var InputView = Backbone.View.extend({
+	el : $('.autoC'),
+	events : {
+		'focusin #autoInput'  : 'render',
+		'focusout #autoInput' : 'unRender'
+	},
+	initialize : function(){
+		$('.results').hide();
+	},
+	render : function(){
+		this.resultPosition();
+		$('.results').show();
+		this.resultView = new ResultView();
+		return this;
+	},
+	unRender : function(){
+		$('.results').hide();
+		$('.results').empty();
+		return this;
+	},
+	resultPosition : function(){
+		var width  = $('#autoInput').outerWidth();
+		var height = $('#autoInput').height();
+		var offset = $('#autoInput').offset();
+		$('.results').css('width', width);
+		$('.results').css('left', offset.left);
+	}
+});
+var inputView = new InputView();
 // Vista para todos los resultados
+/*
 var ResultsView = Backbone.View.extend({
 	model  : results,
 	el     : $('autoC'),
@@ -54,3 +91,4 @@ var ResultsView = Backbone.View.extend({
 	}
 });
 var resultsView = new ResultsView();
+*/

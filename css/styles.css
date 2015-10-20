@@ -56,15 +56,23 @@ thead {
 	font-size: 20px;
 }
 .form-control {
-    border-radius: 0 !important;
-    border: 2px solid #949494 !important;
-    height: 42px !important;
+	border-radius: 0 !important;
+    border: 3px solid #949494 !important;
+    height: 43px !important;
     font-family: 'din';
+    padding-left: 10px;
+    position: relative;
+    left: 3px;
+    color: #4d4d4d;
 }
 
 
 
 .autoC {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
 	display: flex;
 	align-items: flex-start;
 }
@@ -80,11 +88,11 @@ thead {
 }
 .results {
 	border: 3px solid #d5d6d8;
-    position: relative;
-    left: 3px;
+    position: absolute;
     font-family: 'din';
     color: #949494;
     background-color: white;
+    z-index: 1000;
 }
 .results div {
 	padding-top: 5px;
