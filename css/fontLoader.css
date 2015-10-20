@@ -1,0 +1,107 @@
+/*--T-STAR--*/
+
+@font-face {
+	font-family : 'T-Star';
+	font-weight : 400;
+	font-style  : normal;
+	src         : ('../fonts/star/tstar-regular-webfont.ttf');
+}
+@font-face {
+	font-family : 'T-Star';
+	font-weight : 300;
+	font-style  : normal;
+	src         : ('../fonts/star/tstar-light-webfont.ttf');
+}
+@font-face {
+	font-family : 'T-Star';
+	font-weight : 300;
+	font-style  : italic;
+	src         : ('../fonts/star/tstar-lightitalic-webfont.ttf');
+}
+@font-face {
+	font-family : 'T-Star';
+	font-weight : 600;
+	font-style  : normal;
+	src         : ('../fonts/star/tstar-bold-webfont.ttf');
+}
+@font-face {
+	font-family : 'T-Star';
+	font-weight : 600;
+	font-style  : italic;
+	src         : ('../fonts/star/tstar-bolditalic-webfont.ttf');
+}
+@font-face {
+	font-family : 'T-Star';
+	font-weight : 800;
+	font-style  : normal;
+	src         : ('../fonts/star/tstar-headline-webfont.ttf');
+}
+@font-face {
+	font-family : 'T-Star';
+	font-weight : 400;
+	font-style  : italic;
+	src         : ('../fonts/star/tstar-italic-webfont.ttf');
+}
+
+/*--DIN--*/
+
+@font-face {
+	font-family : 'Din';
+	font-weight : 400;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN.ttf');
+}
+@font-face {
+	font-family : 'din';
+	font-weight : 500;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Medium.ttf');
+}
+@font-face {
+	font-family : 'din';
+	font-weight : 300;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Light.ttf');
+}
+@font-face {
+	font-family : 'din';
+	font-weight : 600;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Bold.ttf');
+}
+@font-face {
+	font-family : 'din';
+	font-weight : 800;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Black.ttf');
+}
+@font-face {
+	font-family : 'din-alt';
+	font-weight : 400;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Alternate.ttf');
+}
+@font-face {
+	font-family : 'din-alt';
+	font-weight : 500;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Alternate Medium.ttf');
+}
+@font-face {
+	font-family : 'din-alt';
+	font-weight : 300;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Alternate Light.ttf');
+}
+@font-face {
+	font-family : 'din-alt';
+	font-weight : 600;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Alternate Bold.ttf');
+}
+@font-face {
+	font-family : 'din-alt';
+	font-weight : 800;
+	font-style  : normal;
+	src         : ('../fonts/din/DIN Alternate Black.ttf');
+}

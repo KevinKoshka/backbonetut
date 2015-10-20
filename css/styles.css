@@ -1,0 +1,99 @@
+input:focus, button:focus {
+	outline: none !important;
+}
+.showcase {
+    border: 1px solid #949494;
+    color: #4d4d4d;
+}
+.t-star-400 {
+	font-family: 'Tstar';
+	font-weight: 400;
+}
+.ff-din-500 {
+	font-family: 'din';
+	font-weight: 500;
+}
+.btn-classy {
+	background-image: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    text-shadow: none;
+    color: #949494;
+    border: 3px solid #949494;
+    border-radius: 0;
+    font-family: 'tstar';
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn-classy-red {
+	background-image: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    text-shadow: none;
+    color: #F12B24;
+    border: 3px solid #F12B24;
+    border-radius: 0;
+    font-family: 'tstar';
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn-classy-blue {
+	background-image: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    text-shadow: none;
+    color: #167AC6;
+    border: 3px solid #167AC6;
+    border-radius: 0;
+    font-family: 'tstar';
+    font-weight: 600;
+    font-size: 18px;
+}
+tbody {
+	font-family: 'din';
+}
+thead {
+	font-size: 20px;
+}
+.form-control {
+    border-radius: 0 !important;
+    border: 2px solid #949494 !important;
+    height: 42px !important;
+    font-family: 'din';
+}
+
+
+
+.autoC {
+	display: flex;
+	align-items: flex-start;
+}
+.autoC input {
+	border-radius: 0 !important;
+    border: 3px solid #949494 !important;
+    height: 43px !important;
+    font-family: 'din';
+    padding-left: 10px;
+    position: relative;
+    left: 3px;
+    color: #4d4d4d;
+}
+.results {
+	border: 3px solid #d5d6d8;
+    position: relative;
+    left: 3px;
+    font-family: 'din';
+    color: #949494;
+    background-color: white;
+}
+.results div {
+	padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.results div:hover,
+.results div:focus,
+.results div:active {
+	background-color: #EDEEF0;
+	cursor: pointer;
+}
